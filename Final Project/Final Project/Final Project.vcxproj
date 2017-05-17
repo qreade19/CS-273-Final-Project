@@ -142,9 +142,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Hospital.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Patients.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Hospital.h" />
     <ClInclude Include="Patients.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
