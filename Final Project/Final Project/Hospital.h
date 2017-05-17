@@ -1,11 +1,13 @@
+#ifndef HOSPITAL_H
 #define HOSPITAL_H
-#ifdef HOSPITAL_H
+
 
 #include "Patients.h"
 #include <vector>
 #include <list>
 #include <map>
 #include <string>
+
 using namespace std;
 
 class Hospital

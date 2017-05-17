@@ -1,5 +1,5 @@
 #include "Hospital.h"
-
+#include <iostream>
 using namespace std;
 
 	void Hospital::create_waiting() //creates the waiting room

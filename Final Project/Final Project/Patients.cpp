@@ -1,6 +1,5 @@
-#define PATIENTS_H
-#ifdef PATIENTS_H
 #include "Patients.h"
+#include <iostream>
 
 	void Patient::set_name(string namefr)
 	{
@@ -12,6 +11,7 @@
 	}
 	void Patient::triage()
 	{
+		priority = 5;
 		//random
 	}
 	int Patient::get_priority()
@@ -19,4 +19,3 @@
 		return priority;
 	}
 
-#endif

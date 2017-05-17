@@ -40,12 +40,12 @@ int main()
 	{
 		all_patients[i].triage();
 		hospital.add_patient(all_patients[i].get_priority(), all_patients[i]);
-		//hospital.check_list(all_patients[i].get_priority());
+		hospital.check_list(all_patients[i].get_priority());
 	}
 	for (int k = 0; k < 6; k++)
 	{
-		hospital.remove_patient(7);
-		//hospital.check_list(7);
+		hospital.remove_patient(5);
+		hospital.check_list(5);
 	}
 	hospital.records_now();
 }
